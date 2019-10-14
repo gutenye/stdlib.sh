@@ -5,8 +5,7 @@
 # https://github.com/mattolenik/stdlib.sh/blob/master/stdlib.sh
 # https://github.com/srcshelton/stdlib.sh/blob/master/stdlib.sh
 
-############
-# Path
+# Path {{{
 ###########
 
 # http://stackoverflow.com/questions/3915040/bash-fish-command-to-print-absolute-path-to-a-file
@@ -39,6 +38,7 @@ abs_dirname() {
   pwd
   cd "$cwd"
 }
+# }}}
 
 # echo title
 echot() {
