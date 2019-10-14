@@ -5,6 +5,11 @@
 # https://github.com/mattolenik/stdlib.sh/blob/master/stdlib.sh
 # https://github.com/srcshelton/stdlib.sh/blob/master/stdlib.sh
 
+# Snippets {{{
+########
+# xargs -I@ echo @ < packages # for each line, run command
+# for name in $(cat packages); do echo $name; done
+# }}}
 # Path {{{
 ###########
 
